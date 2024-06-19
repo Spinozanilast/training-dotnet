@@ -1,0 +1,12 @@
+D:\Courses\RestApisNick\src\Movies.Application\bin\Debug\net8.0\Movies.Application.deps.json
+D:\Courses\RestApisNick\src\Movies.Application\bin\Debug\net8.0\Movies.Application.dll
+D:\Courses\RestApisNick\src\Movies.Application\bin\Debug\net8.0\Movies.Application.pdb
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.csproj.AssemblyReference.cache
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.AssemblyInfoInputs.cache
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.AssemblyInfo.cs
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.csproj.CoreCompileInputs.cache
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.dll
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\refint\Movies.Application.dll
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\Movies.Application.pdb
+D:\Courses\RestApisNick\src\Movies.Application\obj\Debug\net8.0\ref\Movies.Application.dll

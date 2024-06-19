@@ -1,0 +1,103 @@
+@page "/editgame"
+@page "/editgame/{id:int}"
+@rendermode InteractiveServer
+
+@inject NavigationManager NavigationManager
+@inject GamesClient GamesClient 
+@inject GenresClient GenresClient
+
+<PageTitle>New game</PageTitle>
+<h3>New Game</h3>
+@if (_genres is null || game is null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <EditForm Model="@game" FormName="editGame" OnValidSubmit="HandleSubmitAsync">
+        <DataAnnotationsValidator/>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <InputText id="name" @bind-Value="game.Name" class="form-control"/>
+            <ValidationMessage For="() => game.Name"></ValidationMessage>
+        </div>
+        <div class="mb-3">
+            <label for="Genre" class="form-label">Genre:</label>
+            <InputSelect id="Genre" @bind-Value="game.GenreId" class="form-select">
+                <option value="">Choose a genre</option>
+                @foreach (var genre in _genres)
+                {
+                    <option value="@genre.Id">@genre.Name</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="() => game.GenreId"></ValidationMessage>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price:</label>
+            <InputNumber id="price" @bind-Value="game.Price" class="form-control"/>
+            <ValidationMessage For="() => game.Price"></ValidationMessage>
+        </div>
+        <div class="mb-3">
+            <label for="releaseDate" class="form-label">Name:</label>
+            <InputDate id="releaseDate" @bind-Value="game.ReleaseDate" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Add game</button>
+        <a class="btn btn-secondary" href="/">Close</a>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public int? Id { get; set; }
+
+    [SupplyParameterFromForm] private GameDetails? game { get; set; }
+
+    private Genre[]? _genres;
+    private string title = string.Empty;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (game is not null)
+        {
+            return;
+        }
+
+        if (Id is not null)
+        {
+            game = await GamesClient.GetGame(Id.Value);
+            title = $"Edit {game.Name}";
+        }
+        else
+        {
+            game = new GameDetails()
+            {
+                Name = string.Empty,
+                ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow)
+            };
+            title = "New game";
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        _genres = await GenresClient.GetGenres();
+    }
+
+    private async Task HandleSubmitAsync()
+    {
+        ArgumentNullException.ThrowIfNull(game);
+
+        if (Id is null)
+        {
+            await GamesClient.AddGame(game);
+        }
+        else
+        {
+            await GamesClient.UpdateGame(game);
+        }
+        
+        NavigationManager.NavigateTo("/");
+    }
+
+}

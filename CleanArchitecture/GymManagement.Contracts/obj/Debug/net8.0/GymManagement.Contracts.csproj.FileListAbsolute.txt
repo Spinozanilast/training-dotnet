@@ -1,0 +1,11 @@
+D:\Courses\CleanArchitecture\GymManagement.Contracts\bin\Debug\net8.0\GymManagement.Contracts.deps.json
+D:\Courses\CleanArchitecture\GymManagement.Contracts\bin\Debug\net8.0\GymManagement.Contracts.dll
+D:\Courses\CleanArchitecture\GymManagement.Contracts\bin\Debug\net8.0\GymManagement.Contracts.pdb
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.AssemblyInfoInputs.cache
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.AssemblyInfo.cs
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.csproj.CoreCompileInputs.cache
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.dll
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\refint\GymManagement.Contracts.dll
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.pdb
+D:\Courses\CleanArchitecture\GymManagement.Contracts\obj\Debug\net8.0\ref\GymManagement.Contracts.dll

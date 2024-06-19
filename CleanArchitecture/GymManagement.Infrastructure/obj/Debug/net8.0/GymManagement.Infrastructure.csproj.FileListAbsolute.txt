@@ -1,0 +1,17 @@
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Infrastructure.deps.json
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Infrastructure.dll
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Infrastructure.pdb
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.AssemblyInfo.cs
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.dll
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\refint\GymManagement.Infrastructure.dll
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.pdb
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\ref\GymManagement.Infrastructure.dll
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Application.dll
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Domain.dll
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Application.pdb
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\bin\Debug\net8.0\GymManagement.Domain.pdb
+D:\Courses\CleanArchitecture\GymManagement.Infrastructure\obj\Debug\net8.0\GymManag.01D5B840.Up2Date

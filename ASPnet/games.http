@@ -1,0 +1,33 @@
+GET http://localhost:5117/games
+
+###
+GET http://localhost:5117/genres
+
+
+###
+GET http://localhost:5117/games/1
+
+###
+POST http://localhost:5117/games
+Content-Type: application/json
+
+{
+    "name": "Doom",
+    "genreId": 3,
+    "price": 25.99,
+    "releaseDate": "2011-11-18"
+}
+
+###
+PUT http://localhost:5117/games/1
+Content-Type: application/json
+
+{
+    "name": "Minecraft 2 Family Full Edition",
+    "genreId": 5,
+    "price": 31.99,
+    "releaseDate": "2012-11-18"
+}
+
+###
+DELETE  http://localhost:5117/games/2
